@@ -145,7 +145,7 @@ public class ReservationServiceImplTest {
 	}	
 	
 	
-	@Ignore
+
 	@Test(expected = NotFountException.class)
 	public void turnAndRestaurantNotFoundTest() throws BookingException {
 		
